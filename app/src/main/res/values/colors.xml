@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1E88E5</color>
+    <color name="colorAccent">#1E88E5</color>
+    <color name="colorBackground">@android:color/transparent</color>
+    <color name="colorTintedBackground">#cdcdcd</color>
+
+    <color name="transparent_colorPrimary">@android:color/transparent</color>
+    <color name="transparent_colorPrimaryDark">#455a64</color>
+    <color name="transparent_colorAccent">#455a64</color>
+    <color name="transparent_colorBackground">@android:color/transparent</color>
+    <color name="transparent_colorTintedBackground">#cdcdcd</color>
+
+    <color name="darkTheme_colorPrimary">#212121</color>
+    <color name="darkTheme_colorPrimaryDark">#263238</color>
+    <color name="darkTheme_colorAccent">#90a4ae</color>
+    <color name="darkTheme_colorBackground">#303030</color>
+    <color name="darkTheme_colorTintedBackground">#263238</color>
+
+
+    <color name="mini_drawer_static_color">#212121</color>
+    <color name="menu_text_color">#FAFAFA</color>
+    <color name="selected_icon_color">#00796B</color>
+
+
+    <color name="sunny_icon">#FBC02D</color>
+    <color name="night_icon">#BDBDBD</color>
+    <color name="rainy_icon">#1E88E5</color>
+    <color name="snowy_icon">#FFFDE7</color>
+    <color name="cloudy_icon">#81D4FA</color>
+
+</resources>

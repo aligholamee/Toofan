@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/widgetRoot"
+    android:alpha="0.9"
+    android:background="@drawable/widget_card"
+    android:padding="20dp">
+
+<LinearLayout
+    android:id="@+id/line1"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageButton
+        android:id="@+id/widgetButtonRefresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="5dp"
+        android:background="@android:color/transparent"
+        android:visibility="visible"
+        android:src="@drawable/ic_refresh_white_24dp" />
+
+    <ImageView
+        android:id="@+id/widgetIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:src="@drawable/ic_cloud_white_48dp"/>
+
+    <TextView
+        android:id="@+id/widgetCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        tools:text="City name, AB"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/textHolder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_below="@+id/line1">
+        <TextView
+            android:id="@+id/widgetTemperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="0 °C"
+            android:textColor="#0D47A1"
+            android:textSize="15sp"
+            android:layout_below="@id/line1"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+
+            android:id="@+id/widgetDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Clear Sky"
+            android:layout_marginLeft="25dp"
+            android:textColor="#0D47A1"
+            android:textSize="16sp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/textHolder"
+        android:id="@+id/time_lay"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/line1"
+            android:textSize="40sp"
+            tools:text="11:50"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/widgetLastUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:visibility="gone"
+        tools:text="Last Update: 00:00" />
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="C:\Users\Ali Gholami\Desktop\Toofan\movingimageview\src\main\res"/><source path="C:\Users\Ali Gholami\Desktop\Toofan\movingimageview\build\generated\res\rs\debug"/><source path="C:\Users\Ali Gholami\Desktop\Toofan\movingimageview\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="C:\Users\Ali Gholami\Desktop\Toofan\movingimageview\src\debug\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="C:\Users\Ali Gholami\Desktop\Toofan\movingimageview\src\main\res"><file path="C:\Users\Ali Gholami\Desktop\Toofan\movingimageview\src\main\res\values\attrs.xml" qualifiers=""><declare-styleable name="MovingImageViewTheme">
+        <attr format="reference" name="movingImageViewStyle"/>
+    </declare-styleable><declare-styleable name="MovingImageView">
+        <attr format="integer" name="miv_speed"/>
+        <attr format="integer" name="miv_repetitions"/>
+        <attr format="float" name="miv_max_relative_size"/>
+        <attr format="float" name="miv_min_relative_offset"/>
+        <attr format="integer" name="miv_start_delay"/>
+        <attr format="boolean" name="miv_load_on_create"/>
+    </declare-styleable></file></source><source path="C:\Users\Ali Gholami\Desktop\Toofan\movingimageview\build\generated\res\rs\debug"/><source path="C:\Users\Ali Gholami\Desktop\Toofan\movingimageview\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="C:\Users\Ali Gholami\Desktop\Toofan\movingimageview\src\debug\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="MovingImageView"><attr format="integer" name="miv_speed"/><attr format="integer" name="miv_repetitions"/><attr format="float" name="miv_max_relative_size"/><attr format="float" name="miv_min_relative_offset"/><attr format="integer" name="miv_start_delay"/><attr format="boolean" name="miv_load_on_create"/></declare-styleable><declare-styleable name="MovingImageViewTheme"><attr format="reference" name="movingImageViewStyle"/></declare-styleable></configuration></mergedItems></merger>

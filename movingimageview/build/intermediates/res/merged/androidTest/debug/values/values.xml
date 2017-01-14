@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MovingImageView"><attr format="integer" name="miv_speed"/><attr format="integer" name="miv_repetitions"/><attr format="float" name="miv_max_relative_size"/><attr format="float" name="miv_min_relative_offset"/><attr format="integer" name="miv_start_delay"/><attr format="boolean" name="miv_load_on_create"/></declare-styleable>
+    <declare-styleable name="MovingImageViewTheme"><attr format="reference" name="movingImageViewStyle"/></declare-styleable>
+</resources>

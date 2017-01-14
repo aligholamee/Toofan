@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="colorTintedBackground">@color/colorTintedBackground</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="AppTheme.transparent" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/transparent_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/transparent_colorPrimaryDark</item>
+        <item name="colorAccent">@color/transparent_colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="colorTintedBackground">@color/transparent_colorTintedBackground</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+
+    <style name="AppTheme.Dark" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/darkTheme_colorPrimary</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimaryDark">@color/darkTheme_colorPrimaryDark</item>
+        <item name="colorAccent">@color/darkTheme_colorAccent</item>
+        <item name="colorTintedBackground">@color/darkTheme_colorTintedBackground</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.transparent" parent="AppTheme.transparent">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar.Dark" parent="AppTheme.Dark">
+        <item name="windowActionBar">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.PopupOverlay.Dark" parent="ThemeOverlay.AppCompat">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:colorBackground">@color/darkTheme_colorPrimaryDark</item>
+    </style>
+
+    <style name="video_show_activity" parent="AppTheme.NoActionBar.Dark">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

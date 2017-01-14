@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/viewApp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <net.grobas.view.MovingImageView
+            android:layout_width="match_parent"
+            android:id="@+id/movingimageview2"
+            android:layout_height="match_parent"
+            app:miv_load_on_create="true"
+            app:miv_max_relative_size="3"
+            app:miv_min_relative_offset="0.2"
+            app:miv_start_delay="1000"
+            app:miv_repetitions="-1"
+            app:miv_speed="20" />
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <android.support.design.widget.CollapsingToolbarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_scrollFlags="scroll"
+                app:titleEnabled="false">
+
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/colorPrimary"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="22dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:paddingTop="?attr/actionBarSize"
+                    android:baselineAligned="false">
+
+                    <RelativeLayout
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center_horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+
+                        <LinearLayout
+                            android:id="@+id/top1"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center_horizontal"
+                            android:orientation="horizontal"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <TextView
+                                android:id="@+id/todayIcon"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text=""
+                                android:textSize="72dp" />
+
+                            <ir.actfun.toofan.iransans_text
+                                android:id="@+id/todayTemperature"
+                                android:layout_width="wrap_content"
+                                android:gravity="center_vertical"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="8dp"
+                                android:layout_height="wrap_content"
+                                android:text="0 °C"
+                                android:textColor="@android:color/white"
+                                android:textSize="36dp" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:gravity="center_horizontal"
+                            android:id="@+id/top2"
+                            android:layout_marginBottom="20dp"
+                            android:layout_below="@id/top1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+
+                            <TextView
+                                android:id="@+id/todayDescription"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+
+                                android:text="No data"
+                                android:textColor="@android:color/white"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/top3"
+                            android:layout_centerInParent="true"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center_horizontal"
+                            android:layout_below="@+id/top2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_marginRight="8dp"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:src="@drawable/wind_ic"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <ir.actfun.toofan.iransans_text
+                                android:id="@+id/todayWind"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="6dp"
+                                android:text="Wind: 0 m/s"
+                                android:textColor="@android:color/white"
+                                android:textSize="13dp" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_marginRight="8dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:src="@drawable/pressure_ic"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+                            <ir.actfun.toofan.iransans_text
+                                android:id="@+id/todayPressure"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="6dp"
+                                android:text="Pressure: 0 hpa"
+                                android:textColor="@android:color/white"
+                                android:textSize="13dp" />
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_marginRight="8dp"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:src="@drawable/humidity_ic"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" />
+
+
+                            <ir.actfun.toofan.iransans_text
+                                android:id="@+id/todayHumidity"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="6dp"
+
+                                android:text="Humidity: 0 %"
+                                android:textColor="@android:color/white"
+                                android:textSize="13dp" />
+
+                        </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/last_part"
+                            android:gravity="center_horizontal"
+                            android:layout_below="@id/top3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginRight="8dp"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:src="@drawable/sunrise_ic"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+
+                                <ir.actfun.toofan.iransans_text
+                                    android:id="@+id/todaySunrise"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Sunrise: 00:00"
+                                    android:layout_marginTop="6dp"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="13dp" />
+
+                            </LinearLayout>
+
+
+
+                            <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="wrap_content"
+                                android:layout_marginRight="8dp"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:src="@drawable/ic_action_name"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" />
+
+
+                                <ir.actfun.toofan.iransans_text
+                                    android:id="@+id/todaySunset"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Sunset: 00:00"
+                                    android:layout_marginTop="6dp"
+                                    android:textColor="@android:color/white"
+                                    android:textSize="13dp" />
+
+                            </LinearLayout>
+
+
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="30dp"
+                            android:layout_below="@id/last_part"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:layout_gravity="center_horizontal"
+                            android:orientation="horizontal">
+
+                            <ir.actfun.toofan.prestige_text
+                                android:id="@+id/lastUpdate"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="10dp" />
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </android.support.design.widget.CollapsingToolbarLayout>
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:tabMode="fixed"
+                app:tabGravity="fill"
+                app:tabIndicatorColor="#fff"/>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</LinearLayout>
+

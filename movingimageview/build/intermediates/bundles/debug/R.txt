@@ -1,0 +1,16 @@
+int attr miv_load_on_create 0x7f010005
+int attr miv_max_relative_size 0x7f010002
+int attr miv_min_relative_offset 0x7f010003
+int attr miv_repetitions 0x7f010001
+int attr miv_speed 0x7f010000
+int attr miv_start_delay 0x7f010004
+int attr movingImageViewStyle 0x7f010006
+int[] styleable MovingImageView { 0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003, 0x7f010004, 0x7f010005 }
+int styleable MovingImageView_miv_load_on_create 5
+int styleable MovingImageView_miv_max_relative_size 2
+int styleable MovingImageView_miv_min_relative_offset 3
+int styleable MovingImageView_miv_repetitions 1
+int styleable MovingImageView_miv_speed 0
+int styleable MovingImageView_miv_start_delay 4
+int[] styleable MovingImageViewTheme { 0x7f010006 }
+int styleable MovingImageViewTheme_movingImageViewStyle 0
