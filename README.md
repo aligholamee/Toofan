@@ -14,7 +14,7 @@ Information received from more than forty thousand meteorological stations aroun
 And other stations of the OpenWeatherMap organization.
 
 #Features List
-
+![alt tag](http://uupload.ir/files/bbco_ir.actfun.toofan3.jpg)
 * Page fully dedicated to show a bit of poetry to suit the weather conditions that affect the heart and soul of every Iranian.
 * Occurred forecast weather and display weather, temperature, humidity, barometric pressure, sunrise and sunset and a short description of the general conditions of the day.
 * Weather forecast its results in three weeks today (Today), tomorrow (Tomorrow) and five-day weekend (Later) will be categorized and placed in the hands of users.
@@ -26,7 +26,7 @@ And other stations of the OpenWeatherMap organization.
 * Save all the updated information to avoid having to connect to the Internet (Cached Data)
 * Animations and fonts the user interface is simple and pleasant.
 
-#Important Notes:
+#Important Notes
 * Due to limited access to servers OpenWeatherMap, need to search the city to be in English.
 * It is recommended to use automatic exact position of geographical location finder identifies you.
 * If you have between you and the sky is not the building block of cement your status to be determined immediately.
