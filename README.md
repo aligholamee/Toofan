@@ -24,8 +24,10 @@ And other stations of the OpenWeatherMap organization.
 * Save all the updated information to avoid having to connect to the Internet (Cached Data)
 * Animations and fonts the user interface is simple and pleasant.
 
-#Important Notes
+# Notes to consider
+
 ![alt tag](http://uupload.ir/files/xofg_ir.actfun.toofan1.jpg)
+
 * Due to limited access to servers OpenWeatherMap, need to search the city to be in English.
 * It is recommended to use automatic exact position of geographical location finder identifies you.
 * If you have between you and the sky is not the building block of cement your status to be determined immediately.
